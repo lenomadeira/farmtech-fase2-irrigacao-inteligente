@@ -52,7 +52,7 @@ O código principal está disponível na pasta: /src/irrigacao-inteligente.ino
 
 ## 📷 Demonstração
 
-
+![Circuito do Projeto](assets/circuito.png)
 
 ---
 
