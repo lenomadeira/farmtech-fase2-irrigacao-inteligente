@@ -9,7 +9,10 @@
 # 🌱 FarmTech - Sistema de Irrigação Inteligente (Fase 2)
 
 ## 👨‍💻 Integrantes
-- Heleno Madeira
+- Heleno Madeira RM570302
+- Samanta Silva RM574120
+- Matheus Fantini RM574078
+- Maykon Souza RM574011
 
 ---
 
@@ -58,7 +61,7 @@ O código principal está disponível na pasta: /src/irrigacao-inteligente.ino
 
 ## 🎥 Vídeo
 
-
+[▶️ Assista ao vídeo do projeto](https://youtu.be/sTN44EC1dzY?si=krPUUo7e7u52Tcsq)
 
 ---
 
