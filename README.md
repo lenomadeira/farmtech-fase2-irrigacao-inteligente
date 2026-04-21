@@ -1,68 +1,68 @@
-# 🌱 FarmTech - Irrigação Inteligente (Fase 2)
+# FIAP - Faculdade de Informática e Administração Paulista
 
-## 📌 Descrição do Projeto
-Neste projeto desenvolvemos um sistema de irrigação inteligente utilizando ESP32, com o objetivo de simular um ambiente agrícola automatizado.
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
 
-A ideia foi trabalhar com leitura de sensores e tomar decisões simples com base nesses dados, como seria feito em um cenário real de plantação.
+<br>
 
----
-
-## 🧠 Funcionamento do Sistema
-
-O sistema utiliza alguns sensores para simular condições do solo:
-
-- Temperatura  
-- Umidade  
-- Luminosidade (LDR)  
-
-Como não temos um sensor de pH disponível no simulador, utilizamos o LDR para representar essa variável.  
-Assim, ao alterar a luminosidade, conseguimos simular mudanças no pH do solo, o que influencia diretamente nos níveis de NPK.
-
----
-
-## ⚙️ Tecnologias Utilizadas
-
-- ESP32  
-- Linguagem C/C++  
-- Wokwi (simulador online)  
-- GitHub  
-
----
-
-## 🧪 Lógica do Projeto
-
-O sistema faz a leitura dos sensores e, com base nesses valores, simula o comportamento de um sistema de irrigação.
-
-Também relacionamos o valor do LDR com o pH do solo, apenas como forma de simulação, já que o sensor real não está disponível no ambiente.
-
----
-
-## 📸 Simulação no Wokwi
-
-
-
----
-
-## 🎥 Vídeo do Projeto
-
-
-
----
+# 🌱 FarmTech - Sistema de Irrigação Inteligente (Fase 2)
 
 ## 👨‍💻 Integrantes
-
-- Heleno Madeira  
-
----
-
-## 📁 Estrutura do Projeto
-
-- `src/` → Código do ESP32  
-- `assets/` → Imagens do projeto  
-- `document/` → Documentação  
+- Heleno Madeira
 
 ---
 
-## 🚀 Status
+## 📌 Descrição do Projeto
 
-Projeto desenvolvido para entrega da Fase 2.
+Este projeto tem como objetivo desenvolver um sistema de irrigação inteligente, capaz de simular o controle das condições do solo com base em sensores e interação do usuário.
+
+A proposta é utilizar conceitos de Internet das Coisas (IoT) para representar um ambiente agrícola automatizado, onde é possível monitorar e ajustar variáveis importantes para o cultivo.
+
+---
+
+## ⚙️ Funcionamento
+
+O sistema realiza:
+
+- Leitura de temperatura e umidade do ambiente (sensor DHT22)
+- Simulação do nível de pH do solo através de um sensor LDR
+- Ajuste manual dos níveis de NPK por meio de botões
+- Acionamento de um relé (simulando irrigação automática)
+
+Quando os parâmetros estão fora do ideal, o sistema pode indicar a necessidade de irrigação ou ajuste do solo.
+
+---
+
+## 🔧 Componentes Utilizados
+
+- Sensor DHT22 (Temperatura e Umidade)
+- Sensor LDR (simulação de pH)
+- Botões (controle de NPK)
+- Módulo Relé
+- Microcontrolador (ESP32 / Arduino)
+
+---
+
+## 💻 Código do Projeto
+
+O código principal está disponível na pasta: /src/irrigacao-inteligente.ino
+
+---
+
+## 📷 Demonstração
+
+
+
+---
+
+## 🎥 Vídeo
+
+
+
+---
+
+## 📚 Considerações Finais
+
+Este projeto demonstra, de forma prática, como tecnologias simples podem ser aplicadas para resolver problemas do agronegócio, trazendo automação e eficiência para o controle de irrigação.
+
